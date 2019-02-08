@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+//函数声明
+float min(float a, float b);
+float max(float a, float b);
+
+//主函数
+int main(void)
+{
+  printf("hello\n");
+  
+  return 0;
+}
+
+//返回ab中的最小值
+float min(float a, float b)
+{
+  if(a >= b)
+  {
+    b = a;
+  }
+  return a;
+}
+
+//返回ab中的最大值
+float max(float a, float b)
+{
+  if(a <= b)
+  {
+    a = b;
+  }
+  return a;
+}
