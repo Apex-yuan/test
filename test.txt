@@ -32,7 +32,7 @@ float max(float a, float b)
   return a;
 }
 
-//cmpare(float a, float b)
+//compare(float a, float b)
 {
   if(a > b)
     printf("a>b\n");
