@@ -31,3 +31,13 @@ float max(float a, float b)
   }
   return a;
 }
+
+//cmpare(float a, float b)
+{
+  if(a > b)
+    printf("a>b\n");
+  else if(a == b)
+    printf("a=b\n");
+  else
+    printf("a<b\n");
+}
